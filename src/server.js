@@ -4,7 +4,7 @@ const routes = require('./routes');
 const init = async () => {
   const server = Hapi.server({
     port: 3000,
-    host: 'https://bookshelf-dicoding-api.vercel.app',
+    host: 'localhost',
     routes: {
       cors: {
         origin: ['*'],
