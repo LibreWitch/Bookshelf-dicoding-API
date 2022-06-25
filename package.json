@@ -1,0 +1,26 @@
+{
+  "name": "bookshelf-dicoding",
+  "version": "1.0.0",
+  "description": "Api untuk Backend dicoding bookshelf submission",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/server.js",
+    "lint": "eslint ./"
+  },
+  "keywords": [
+    "bookshelf",
+    "dicoding"
+  ],
+  "author": "Amro Alfien (Librewitch)",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/hapi": "^20.2.2",
+    "nanoid": "^3.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.18.0",
+    "eslint-config-google": "^0.14.0",
+    "nodemon": "^2.0.16"
+  }
+}
